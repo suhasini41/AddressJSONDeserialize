@@ -1,0 +1,8 @@
+{
+	"BuildingNo": "123",
+	"AppartmentName": "abc",
+	"Street":"sampleStreet",
+	"Zipcode":"12345",
+	"State": "California",
+	"Country" : "USA"
+}

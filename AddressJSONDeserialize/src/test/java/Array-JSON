@@ -1,0 +1,49 @@
+JSON File :
+---------------
+[
+{
+	"BuildingNo": "123",
+	"AppartmentName": "abc",
+	"Street":"sampleStreet",
+	"Zipcode":"12345",
+	"State": "California",
+	"Country" : "USA"
+},
+{
+	"BuildingNo": "100",
+	"AppartmentName": "ase",
+	"Street":"milk street",
+	"Zipcode":"78645",
+	"State": "Maryland",
+	"Country" : "USA"
+}
+]
+
+Java class for deserializing array:
+--------------------------------------
+//		JSONArray array = null;
+//		try {
+//			array = (JSONArray) parser.parse(reader);
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (ParseException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println(array.size());
+//		List<Address> list = new ArrayList<>();
+//		for(int i=0;i<array.size();i++)
+//		{
+//			JSONObject jobject = (JSONObject) array.get(i);
+//			String ctry = (String) jobject.get("Country");
+//			String apt = (String) jobject.get("AppartmentName");
+//			String ste = (String) jobject.get("State");
+//			String BNo = (String) jobject.get("BuildingNo");
+//			String zip = (String) jobject.get("Zipcode");
+//			String str = (String) jobject.get("Street");
+//			Address address = new Address(BNo, apt, str, zip, ste,ctry);
+//			list.add(address);
+//		}
+		
+//		System.out.println(list);
